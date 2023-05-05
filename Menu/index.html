@@ -1,28 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu lateral resposive</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css" />
     <script src="https://kit.fontawesome.com/564b2ef99b.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <head>
-        <div class="icon_menu">
-            <i class="fas fa-bars"></i>
+
+<body id="body">
+    <header>
+        <div class="icon__menu">
+            <i class="fas fa-bars" id="btn_open"></i>
         </div>
-    </head>
-    <div class="menu__side">
+    </header>
+    <div class="menu__side" id="menu_side">
         <div class="name__page">
             <i class="fab fa-youtube"></i>
             <h4>Titulo</h4>
         </div>
         <div class="options__menu">
-            
+            <a href="#" class="selected">
+                <div class="option">
+                    <i class="fas fa-home" title="Inicio"></i>
+                    <h4>Inicio</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div class="option">
+                    <i class="fas fa-file" title="Portafolio"></i>
+                    <h4>Portafolio</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div class="option">
+                    <i class="fas fa-video" title="Cursos"></i>
+                    <h4>Cursos</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div class="option">
+                    <i class="fas fa-sticky-note" title="Blog"></i>
+                    <h4>Blog</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div class="option">
+                    <i class="fas fa-id-badge" title="Contacto"></i>
+                    <h4>Contacto</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div class="option">
+                    <i class="fas fa-address-card" title="Nosotros"></i>
+                    <h4>Nosotros</h4>
+                </div>
+            </a>
         </div>
     </div>
-    
+
+    <main>
+        <h1>TITULO</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, magni quia adipisci 
+            reprehenderit ex incidunt possimus excepturi. Nam impedit neque placeat! Dolores reprehenderit 
+            expedita quidem voluptatibus dolorem placeat ea eveniet.
+        </p>
+
+    </main>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>
