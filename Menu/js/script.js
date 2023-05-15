@@ -26,5 +26,5 @@ window.addEventListener("resize",function () {
         body.classList.add("body_move");
         side_menu.classList.add("menu__side_move");
     }
-    
+    /* hola test*/
 })
