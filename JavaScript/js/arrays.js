@@ -27,9 +27,24 @@ document.write("<ul>");
 //    document.write("<li>"+ lenguajes[i] +"</li>");
 // }
 
-lenguajes.forEach((elemento,index) => {
-    document.write("<li>"+index +'-'+ elemento +"</li>");
-});
+// lenguajes.forEach((elemento,index) => {
+//     document.write("<li>"+index +'-'+ elemento +"</li>");
+// });
+
+
+// for (let lenguaje in lenguajes) {
+//     document.write("<li>"+lenguajes[lenguaje]+"</li>");
+// }
 
 
 document.write("</ul>");
+
+
+// busquedas
+var precios=[10,20,90,1];
+
+
+//var busqueda = lenguajes.findIndex (lenguaje => lenguaje == "php");
+var busqueda = precios.some (precios => precios >=100);
+
+console.log(busqueda);
